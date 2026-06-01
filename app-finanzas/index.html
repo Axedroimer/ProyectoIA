@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IA Finanzas Personales</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">IF</div>
+          <div>
+            <strong>IA Finanzas</strong>
+            <span>Sprint 1</span>
+          </div>
+        </div>
+
+        <nav class="nav-list" aria-label="Navegacion principal">
+          <a href="#resumen" class="nav-item active">Resumen</a>
+          <a href="#validacion" class="nav-item">CSV</a>
+          <a href="#sistema" class="nav-item">Sistema</a>
+          <a href="#hitos" class="nav-item">Hitos</a>
+          <a href="#graficos" class="nav-item">Graficos</a>
+          <a href="#simulador" class="nav-item">Simulador</a>
+        </nav>
+
+        <section class="sidebar-filters" aria-label="Filtros del tablero">
+          <div>
+            <p class="sidebar-kicker">Filtros</p>
+            <h2>Vista activa</h2>
+          </div>
+          <label>
+            Categoria
+            <select id="sidebarCategoryFilter">
+              <option value="todos">Todas</option>
+            </select>
+          </label>
+          <label>
+            Tipo de gasto
+            <select id="sidebarTypeFilter">
+              <option value="todos">Todos</option>
+            </select>
+          </label>
+          <label>
+            Mes
+            <select id="sidebarMonthFilter">
+              <option value="todos">Todos</option>
+            </select>
+          </label>
+          <button id="sidebarClearFilters" class="sidebar-clear" type="button">Limpiar filtros</button>
+          <p id="sidebarFilterSummary" class="filter-summary">Vista general del dataset activo.</p>
+        </section>
+
+        <div class="sidebar-note">
+          <span class="status-dot"></span>
+          Modelo multiclase local
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Panel de control</p>
+            <h1>Finanzas personales con lectura inteligente</h1>
+          </div>
+          <div class="topbar-actions">
+            <button id="loadDemoBtn" class="button secondary" type="button">Reiniciar demo</button>
+            <label class="button primary" for="csvInput">Anexar CSV</label>
+            <input id="csvInput" type="file" accept=".csv,text/csv" />
+          </div>
+        </header>
+
+        <section id="validacion" class="panel upload-panel">
+          <div>
+            <p class="eyebrow">Entrada de datos</p>
+            <h2>Validacion del archivo CSV</h2>
+            <p>
+              El sistema acepta el CSV crudo con <code>fecha</code>, <code>descripcion</code>,
+              <code>categoria</code> y <code>monto</code>. Los archivos que cargues se anexan al dataset activo y recalculan el tablero.
+            </p>
+          </div>
+          <div id="validationBox" class="validation-box">
+            <span class="validation-title">Sin archivo cargado</span>
+            <span class="validation-detail">Usa la demo o anexa un CSV para iniciar el analisis.</span>
+          </div>
+        </section>
+
+        <section id="resumen" class="kpi-grid" aria-label="Indicadores principales">
+          <article class="kpi-card">
+            <span>Total movimientos</span>
+            <strong id="kpiTotal">0</strong>
+            <small>Registros analizados</small>
+          </article>
+          <article class="kpi-card">
+            <span>Monto total</span>
+            <strong id="kpiMonto">$0</strong>
+            <small>Gasto acumulado</small>
+          </article>
+          <article class="kpi-card">
+            <span>Requieren atencion</span>
+            <strong id="kpiAtencion">0%</strong>
+            <small>Segun tipo de gasto</small>
+          </article>
+          <article class="kpi-card">
+            <span>Score promedio</span>
+            <strong id="kpiScore">0.00</strong>
+            <small>Nivel de atencion</small>
+          </article>
+        </section>
+
+        <section id="sistema" class="panel system-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Lectura del sistema</p>
+              <h2>Informacion activa del modelo</h2>
+            </div>
+            <button id="clearFocusBtn" class="button subtle" type="button">Vista general</button>
+          </div>
+          <div class="insight-grid">
+            <article>
+              <span>Archivo activo</span>
+              <strong id="systemSource">Sin datos</strong>
+              <small id="systemScope">Vista general</small>
+            </article>
+            <article>
+              <span>Categoria dominante</span>
+              <strong id="systemTopCategory">Sin datos</strong>
+              <small>Por monto en la vista</small>
+            </article>
+            <article>
+              <span>Tipo principal</span>
+              <strong id="systemMainType">Sin datos</strong>
+              <small>Segun clasificacion IA</small>
+            </article>
+            <article>
+              <span>Nivel de atencion</span>
+              <strong id="systemAttention">0%</strong>
+              <small>Movimientos no controlados</small>
+            </article>
+          </div>
+          <p id="systemNarrative" class="system-narrative">
+            Carga un CSV para que el sistema construya una lectura financiera dinamica.
+          </p>
+        </section>
+
+        <section class="two-column">
+          <article id="hitos" class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Movimientos</p>
+                <h2>Ultimos hitos detectados</h2>
+              </div>
+              <span id="hitosCount" class="pill">0 hitos</span>
+            </div>
+            <div id="milestones" class="milestone-list"></div>
+          </article>
+
+          <article id="simulador" class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Prueba rapida</p>
+                <h2>Simular nuevo gasto</h2>
+              </div>
+            </div>
+            <form id="predictionForm" class="prediction-form">
+              <label>
+                Descripcion
+                <input id="newDescription" type="text" value="Compra no planeada" />
+              </label>
+              <label>
+                Categoria
+                <select id="newCategory">
+                  <option value="alimentacion">alimentacion</option>
+                  <option value="transporte">transporte</option>
+                  <option value="servicios">servicios</option>
+                  <option value="salud">salud</option>
+                  <option value="educacion">educacion</option>
+                  <option value="ocio">ocio</option>
+                  <option value="entretenimiento">entretenimiento</option>
+                  <option value="compras_no_esenciales">compras_no_esenciales</option>
+                </select>
+              </label>
+              <label>
+                Monto
+                <input id="newAmount" type="number" value="180000" min="0" step="1000" />
+              </label>
+              <label>
+                Incremento
+                <select id="newIncrease">
+                  <option value="0">No</option>
+                  <option value="1">Si</option>
+                </select>
+              </label>
+              <button class="button primary wide" type="submit">Evaluar gasto</button>
+            </form>
+            <div id="predictionResult" class="prediction-result"></div>
+          </article>
+        </section>
+
+        <section id="graficos" class="chart-grid">
+          <article class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Categorias</p>
+                <h2>Gasto total</h2>
+              </div>
+            </div>
+            <p class="chart-hint">Haz clic en una categoria para enfocar todo el tablero.</p>
+            <div id="categoryChart" class="bar-chart"></div>
+          </article>
+
+          <article class="panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Modelo</p>
+                <h2>Tipos de gasto</h2>
+              </div>
+            </div>
+            <p class="chart-hint">Haz clic en el donut o en la leyenda para filtrar por tipo.</p>
+            <div class="donut-layout">
+              <canvas id="typeDonut" width="220" height="220"></canvas>
+              <div id="typeLegend" class="legend"></div>
+            </div>
+          </article>
+
+          <article class="panel wide-panel">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Tiempo</p>
+                <h2>Evolucion mensual</h2>
+              </div>
+            </div>
+            <p class="chart-hint">Haz clic en un punto para analizar solo ese mes.</p>
+            <canvas id="monthlyChart" class="line-chart" width="900" height="260"></canvas>
+            <div id="monthLegend" class="month-selector"></div>
+          </article>
+        </section>
+
+        <section class="panel table-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Detalle</p>
+              <h2>Movimientos analizados</h2>
+            </div>
+            <div class="filters">
+              <select id="typeFilter">
+                <option value="todos">Todos los tipos</option>
+              </select>
+              <input id="searchInput" type="search" placeholder="Buscar movimiento" />
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Fecha</th>
+                  <th>Descripcion</th>
+                  <th>Categoria</th>
+                  <th>Monto</th>
+                  <th>Score</th>
+                  <th>Tipo</th>
+                </tr>
+              </thead>
+              <tbody id="movementTable"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
