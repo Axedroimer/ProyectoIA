@@ -1,0 +1,501 @@
+fecha,descripcion,categoria,monto
+2026-01-01,"Compra de frutas",alimentacion,20982
+2026-01-01,"Cine y snacks",entretenimiento,76167
+2026-01-01,"Pago de energia",servicios,179035
+2026-01-01,"Pasaje de bus",transporte,4007
+2026-01-02,"Cena en casa",alimentacion,34382
+2026-01-02,"Matricula curso corto",educacion,154222
+2026-01-02,"Consulta medica",salud,74069
+2026-01-02,"Taxi por lluvia",transporte,25958
+2026-01-03,"Domicilio comida",alimentacion,39810
+2026-01-03,"Domicilio comida",alimentacion,33763
+2026-01-03,"Material de estudio",educacion,36296
+2026-01-03,"Salida a cine",entretenimiento,34806
+2026-01-03,"Pago de agua",servicios,41409
+2026-01-03,"Taxi por lluvia",transporte,9214
+2026-01-04,"Cena en casa",alimentacion,23066
+2026-01-04,"Pasaje de bus",transporte,3386
+2026-01-05,"Desayuno fuera",alimentacion,9232
+2026-01-05,"Pago de internet",servicios,83506
+2026-01-05,"Gasolina",transporte,50477
+2026-01-05,"Transporte app",transporte,19077
+2026-01-06,"Almuerzo oficina",alimentacion,22918
+2026-01-06,"Pasaje de bus",transporte,2988
+2026-01-06,"Pasaje de bus",transporte,4247
+2026-01-07,"Almuerzo oficina",alimentacion,19333
+2026-01-07,"Compra en supermercado",alimentacion,137847
+2026-01-07,"Compra de libro",educacion,41694
+2026-01-07,"Cine y snacks",entretenimiento,84312
+2026-01-07,"Suscripcion almacenamiento",entretenimiento,12182
+2026-01-07,"Consulta medica",salud,73890
+2026-01-07,"Pago de celular",servicios,56182
+2026-01-08,"Compra en supermercado",alimentacion,126087
+2026-01-08,"Snack tarde",alimentacion,5214
+2026-01-08,"Compra de medicamento",salud,53258
+2026-01-08,"Recarga transporte",transporte,12534
+2026-01-09,"Suscripcion de Netflix",entretenimiento,26673
+2026-01-10,"Mercado de la semana",alimentacion,64893
+2026-01-10,"Suscripcion almacenamiento",entretenimiento,10120
+2026-01-10,"Transporte app",transporte,39648
+2026-01-11,"Compra en supermercado",alimentacion,122854
+2026-01-11,"Plataforma de musica",entretenimiento,18288
+2026-01-11,"Salida con amigos",ocio,78646
+2026-01-11,"Medicamentos formulados",salud,69083
+2026-01-11,"Taxi por lluvia",transporte,14058
+2026-01-11,"Transporte app",transporte,24458
+2026-01-12,"Plan familiar",ocio,67326
+2026-01-12,"Pasaje de bus",transporte,2605
+2026-01-12,"Pasaje de bus",transporte,3965
+2026-01-12,"Taxi por lluvia",transporte,15805
+2026-01-13,"Curso virtual",educacion,110386
+2026-01-13,"Suscripcion almacenamiento",entretenimiento,9217
+2026-01-13,"Cena en restaurante",ocio,100147
+2026-01-15,"Mercado de la semana",alimentacion,97054
+2026-01-15,"Snack tarde",alimentacion,10644
+2026-01-15,"Control odontologico",salud,140514
+2026-01-15,"Gimnasio mensual",salud,72207
+2026-01-15,"Recarga transporte",transporte,11199
+2026-01-16,"Accesorio celular",compras_no_esenciales,39155
+2026-01-17,"Desayuno fuera",alimentacion,15011
+2026-01-17,"Helado y bebida",ocio,14870
+2026-01-18,"Domicilio comida",alimentacion,57096
+2026-01-18,"Cafe y postre",ocio,12002
+2026-01-18,"Recarga transporte",transporte,21087
+2026-01-19,"Taxi por lluvia",transporte,19891
+2026-01-20,"Mercado de la semana",alimentacion,123037
+2026-01-20,"Evento cultural",entretenimiento,105452
+2026-01-20,"Gasolina",transporte,64355
+2026-01-21,"Compra en supermercado",alimentacion,126939
+2026-01-21,"Plan familiar",ocio,50012
+2026-01-21,"Recarga transporte",transporte,16123
+2026-01-22,"Videojuego digital",entretenimiento,91969
+2026-01-22,"Salida con amigos",ocio,78064
+2026-01-22,"Transporte app",transporte,34934
+2026-01-23,"Desayuno fuera",alimentacion,16266
+2026-01-23,"Pago plataforma educativa",educacion,40530
+2026-01-23,"Plan familiar",ocio,43289
+2026-01-23,"Gasolina",transporte,49978
+2026-01-24,"Desayuno fuera",alimentacion,10302
+2026-01-24,"Salida fin de semana",ocio,64884
+2026-01-24,"Control odontologico",salud,131781
+2026-01-25,"Cena en casa",alimentacion,42666
+2026-01-25,"Compra de frutas",alimentacion,26570
+2026-01-25,"Bus ida y regreso",transporte,7163
+2026-01-26,"Mercado de la semana",alimentacion,82927
+2026-01-26,"Bus ida y regreso",transporte,7582
+2026-01-27,"Domicilio comida",alimentacion,25488
+2026-01-27,"Matricula curso corto",educacion,228273
+2026-01-27,"Medicamentos formulados",salud,50987
+2026-01-27,"Taxi por lluvia",transporte,12927
+2026-01-28,"Compra de frutas",alimentacion,19910
+2026-01-28,"Helado y bebida",ocio,15386
+2026-01-28,"Bus ida y regreso",transporte,6889
+2026-01-29,"Compra de frutas",alimentacion,26492
+2026-01-29,"Compra de ropa",compras_no_esenciales,221660
+2026-01-29,"Suscripcion almacenamiento",entretenimiento,14234
+2026-01-30,"Cena en casa",alimentacion,23064
+2026-01-30,"Snack tarde",alimentacion,9691
+2026-01-30,"Salida a cine",entretenimiento,60726
+2026-01-30,"Consulta medica",salud,132497
+2026-01-30,"Taxi por lluvia",transporte,12221
+2026-01-31,"Cena en casa",alimentacion,25092
+2026-01-31,"Pago plataforma educativa",educacion,53602
+2026-01-31,"Compra de medicamento",salud,46436
+2026-02-01,"Desayuno fuera",alimentacion,11948
+2026-02-01,"Snack tarde",alimentacion,10772
+2026-02-01,"Pago de energia",servicios,171542
+2026-02-02,"Videojuego digital",entretenimiento,129111
+2026-02-02,"Bus ida y regreso",transporte,5725
+2026-02-02,"Gasolina",transporte,71249
+2026-02-03,"Pago de agua",servicios,48288
+2026-02-03,"Pasaje de bus",transporte,3819
+2026-02-04,"Suscripcion almacenamiento",entretenimiento,11085
+2026-02-04,"Gasolina",transporte,90922
+2026-02-05,"Evento cultural",entretenimiento,87537
+2026-02-05,"Pago de internet",servicios,85695
+2026-02-05,"Transporte app",transporte,26347
+2026-02-06,"Compra en supermercado",alimentacion,87252
+2026-02-06,"Control odontologico",salud,89829
+2026-02-06,"Taxi por lluvia",transporte,22538
+2026-02-07,"Cena en casa",alimentacion,23053
+2026-02-07,"Pago de celular",servicios,54730
+2026-02-07,"Transporte app",transporte,37952
+2026-02-08,"Helado y bebida",ocio,16355
+2026-02-09,"Salida a cine",entretenimiento,60720
+2026-02-09,"Suscripcion de Netflix",entretenimiento,28022
+2026-02-09,"Gasolina",transporte,75688
+2026-02-10,"Mercado de la semana",alimentacion,70265
+2026-02-10,"Taxi por lluvia",transporte,21311
+2026-02-11,"Almuerzo oficina",alimentacion,23532
+2026-02-11,"Domicilio comida",alimentacion,44195
+2026-02-11,"Plataforma de musica",entretenimiento,18461
+2026-02-11,"Helado y bebida",ocio,17308
+2026-02-12,"Mercado de la semana",alimentacion,122289
+2026-02-12,"Bus ida y regreso",transporte,7310
+2026-02-13,"Mercado de la semana",alimentacion,106629
+2026-02-13,"Curso virtual",educacion,103193
+2026-02-13,"Cena en restaurante",ocio,91495
+2026-02-13,"Compra de medicamento",salud,39595
+2026-02-14,"Desayuno fuera",alimentacion,12151
+2026-02-14,"Mercado de la semana",alimentacion,71018
+2026-02-14,"Compra de ropa",compras_no_esenciales,119162
+2026-02-14,"Gasolina",transporte,61339
+2026-02-15,"Mercado de la semana",alimentacion,109547
+2026-02-15,"Suscripcion almacenamiento",entretenimiento,9254
+2026-02-15,"Gimnasio mensual",salud,68740
+2026-02-15,"Transporte app",transporte,12986
+2026-02-16,"Videojuego digital",entretenimiento,94369
+2026-02-16,"Salida fin de semana",ocio,135289
+2026-02-16,"Compra de medicamento",salud,58626
+2026-02-17,"Compra en supermercado",alimentacion,87074
+2026-02-17,"Control odontologico",salud,132347
+2026-02-17,"Pasaje de bus",transporte,3768
+2026-02-18,"Compra de frutas",alimentacion,28132
+2026-02-18,"Compra en supermercado",alimentacion,125254
+2026-02-18,"Suscripcion almacenamiento",entretenimiento,14120
+2026-02-18,"Transporte app",transporte,20164
+2026-02-19,"Cena en casa",alimentacion,26239
+2026-02-19,"Medicamentos formulados",salud,72985
+2026-02-19,"Pasaje de bus",transporte,3023
+2026-02-20,"Compra de frutas",alimentacion,32509
+2026-02-20,"Pasaje de bus",transporte,2857
+2026-02-21,"Mercado de la semana",alimentacion,107672
+2026-02-21,"Compra de ropa",compras_no_esenciales,130293
+2026-02-21,"Salida con amigos",ocio,50413
+2026-02-22,"Almuerzo oficina",alimentacion,12184
+2026-02-22,"Compra de frutas",alimentacion,27769
+2026-02-22,"Salida fin de semana",ocio,138781
+2026-02-23,"Compra en supermercado",alimentacion,88729
+2026-02-23,"Taxi por lluvia",transporte,25582
+2026-02-24,"Salida fin de semana",ocio,118043
+2026-02-24,"Transporte app",transporte,27037
+2026-02-25,"Almuerzo oficina",alimentacion,18073
+2026-02-25,"Salida fin de semana",ocio,139652
+2026-02-25,"Bus ida y regreso",transporte,7464
+2026-02-26,"Cena en casa",alimentacion,37172
+2026-02-27,"Compra de audifonos",compras_no_esenciales,40947
+2026-02-27,"Pasaje de bus",transporte,3664
+2026-02-28,"Compra de frutas",alimentacion,36371
+2026-02-28,"Snack tarde",alimentacion,12019
+2026-03-01,"Compra de frutas",alimentacion,19537
+2026-03-01,"Suscripcion almacenamiento",entretenimiento,10726
+2026-03-01,"Pago de energia",servicios,184169
+2026-03-02,"Domicilio comida",alimentacion,28285
+2026-03-02,"Control odontologico",salud,71032
+2026-03-03,"Compra de frutas",alimentacion,31056
+2026-03-03,"Pago de agua",servicios,41703
+2026-03-03,"Pasaje de bus",transporte,2619
+2026-03-04,"Domicilio comida",alimentacion,57338
+2026-03-04,"Evento cultural",entretenimiento,95136
+2026-03-04,"Plan familiar",ocio,28861
+2026-03-04,"Compra farmacia",salud,42916
+2026-03-04,"Taxi por lluvia",transporte,17631
+2026-03-05,"Domicilio comida",alimentacion,42872
+2026-03-05,"Mercado de la semana",alimentacion,101141
+2026-03-05,"Plan familiar",ocio,78668
+2026-03-05,"Compra de medicamento",salud,50804
+2026-03-05,"Pago de internet",servicios,93530
+2026-03-06,"Mercado de la semana",alimentacion,122678
+2026-03-06,"Cena en restaurante",ocio,101610
+2026-03-06,"Compra farmacia",salud,19913
+2026-03-06,"Bus ida y regreso",transporte,7024
+2026-03-06,"Gasolina",transporte,91481
+2026-03-07,"Desayuno fuera",alimentacion,16975
+2026-03-07,"Pago de celular",servicios,57962
+2026-03-07,"Bus ida y regreso",transporte,5852
+2026-03-08,"Desayuno fuera",alimentacion,11887
+2026-03-08,"Helado y bebida",ocio,18302
+2026-03-08,"Medicamentos formulados",salud,35295
+2026-03-09,"Compra de frutas",alimentacion,31409
+2026-03-09,"Compra en supermercado",alimentacion,116834
+2026-03-09,"Compra de cuaderno",educacion,12481
+2026-03-09,"Suscripcion de Netflix",entretenimiento,27590
+2026-03-09,"Cena en restaurante",ocio,83259
+2026-03-09,"Transporte app",transporte,19749
+2026-03-10,"Compra de frutas",alimentacion,25989
+2026-03-10,"Compra en supermercado",alimentacion,122476
+2026-03-10,"Compra de ropa",compras_no_esenciales,127288
+2026-03-10,"Suscripcion almacenamiento",entretenimiento,14975
+2026-03-10,"Transporte app",transporte,26225
+2026-03-11,"Compra en supermercado",alimentacion,131572
+2026-03-11,"Snack tarde",alimentacion,8101
+2026-03-11,"Plataforma de musica",entretenimiento,17956
+2026-03-11,"Consulta medica",salud,100569
+2026-03-11,"Consulta medica",salud,90232
+2026-03-11,"Transporte app",transporte,39885
+2026-03-12,"Desayuno fuera",alimentacion,10939
+2026-03-12,"Videojuego digital",entretenimiento,76122
+2026-03-12,"Taxi por lluvia",transporte,28863
+2026-03-13,"Snack tarde",alimentacion,10515
+2026-03-13,"Snack tarde",alimentacion,9558
+2026-03-13,"Curso virtual",educacion,97262
+2026-03-13,"Videojuego digital",entretenimiento,57384
+2026-03-14,"Snack tarde",alimentacion,5114
+2026-03-14,"Material de estudio",educacion,17514
+2026-03-14,"Cena en restaurante",ocio,65811
+2026-03-14,"Taxi por lluvia",transporte,19801
+2026-03-15,"Almuerzo oficina",alimentacion,22185
+2026-03-15,"Gimnasio mensual",salud,76435
+2026-03-15,"Bus ida y regreso",transporte,8204
+2026-03-16,"Evento cultural",entretenimiento,40582
+2026-03-16,"Salida con amigos",ocio,54126
+2026-03-16,"Transporte app",transporte,21643
+2026-03-17,"Cena en casa",alimentacion,35400
+2026-03-17,"Cine y snacks",entretenimiento,65718
+2026-03-17,"Evento cultural",entretenimiento,88654
+2026-03-17,"Salida con amigos",ocio,73384
+2026-03-18,"Compra en supermercado",alimentacion,115857
+2026-03-18,"Salida con amigos",ocio,86724
+2026-03-18,"Control odontologico",salud,140934
+2026-03-18,"Taxi por lluvia",transporte,28567
+2026-03-19,"Compra en supermercado",alimentacion,126664
+2026-03-19,"Snack tarde",alimentacion,11954
+2026-03-19,"Gasolina",transporte,48967
+2026-03-20,"Cena en casa",alimentacion,25283
+2026-03-20,"Accesorio celular",compras_no_esenciales,49257
+2026-03-20,"Material de estudio",educacion,23216
+2026-03-20,"Cine y snacks",entretenimiento,54793
+2026-03-21,"Domicilio comida",alimentacion,41535
+2026-03-21,"Recarga transporte",transporte,9748
+2026-03-22,"Compra de frutas",alimentacion,34120
+2026-03-22,"Snack tarde",alimentacion,10868
+2026-03-22,"Compra de libro",educacion,38749
+2026-03-22,"Bus ida y regreso",transporte,7400
+2026-03-23,"Salida a cine",entretenimiento,60002
+2026-03-23,"Salida fin de semana",ocio,80599
+2026-03-24,"Domicilio comida",alimentacion,37714
+2026-03-24,"Compra de zapatos",compras_no_esenciales,239594
+2026-03-24,"Cafe y postre",ocio,22348
+2026-03-24,"Pasaje de bus",transporte,3419
+2026-03-25,"Compra de frutas",alimentacion,27870
+2026-03-25,"Salida fin de semana",ocio,103221
+2026-03-25,"Transporte app",transporte,27551
+2026-03-26,"Compra de frutas",alimentacion,32248
+2026-03-26,"Compra de frutas",alimentacion,37189
+2026-03-26,"Compra en supermercado",alimentacion,145239
+2026-03-26,"Taxi por lluvia",transporte,18298
+2026-03-27,"Almuerzo oficina",alimentacion,20925
+2026-03-27,"Mercado de la semana",alimentacion,106486
+2026-03-27,"Transporte app",transporte,13683
+2026-03-28,"Compra en supermercado",alimentacion,144903
+2026-03-28,"Helado y bebida",ocio,13099
+2026-03-28,"Helado y bebida",ocio,20640
+2026-03-28,"Recarga transporte",transporte,21049
+2026-03-29,"Cena en casa",alimentacion,38829
+2026-03-29,"Compra de frutas",alimentacion,27227
+2026-03-30,"Almuerzo oficina",alimentacion,13299
+2026-03-30,"Pago plataforma educativa",educacion,52105
+2026-03-30,"Plan familiar",ocio,35481
+2026-03-30,"Gasolina",transporte,90192
+2026-03-31,"Pasaje de bus",transporte,4097
+2026-03-31,"Taxi por lluvia",transporte,13928
+2026-04-01,"Domicilio comida",alimentacion,32424
+2026-04-01,"Pago de energia",servicios,195714
+2026-04-01,"Bus ida y regreso",transporte,8029
+2026-04-02,"Domicilio comida",alimentacion,47823
+2026-04-02,"Recarga transporte",transporte,16339
+2026-04-03,"Suscripcion almacenamiento",entretenimiento,14140
+2026-04-03,"Pago de agua",servicios,47425
+2026-04-04,"Mercado de la semana",alimentacion,100496
+2026-04-04,"Compra de libro",educacion,23915
+2026-04-04,"Transporte app",transporte,17919
+2026-04-05,"Almuerzo oficina",alimentacion,18715
+2026-04-05,"Cena en casa",alimentacion,26812
+2026-04-05,"Salida con amigos",ocio,47917
+2026-04-05,"Control odontologico",salud,114352
+2026-04-05,"Pago de internet",servicios,85169
+2026-04-05,"Gasolina",transporte,75185
+2026-04-06,"Domicilio comida",alimentacion,24882
+2026-04-06,"Domicilio comida",alimentacion,43918
+2026-04-06,"Pago plataforma educativa",educacion,32281
+2026-04-06,"Salida con amigos",ocio,74239
+2026-04-07,"Snack tarde",alimentacion,8503
+2026-04-07,"Cine y snacks",entretenimiento,70857
+2026-04-07,"Evento cultural",entretenimiento,95755
+2026-04-07,"Cafe y postre",ocio,10890
+2026-04-07,"Salida con amigos",ocio,59589
+2026-04-07,"Pago de celular",servicios,59705
+2026-04-07,"Gasolina",transporte,94469
+2026-04-08,"Cena en casa",alimentacion,33805
+2026-04-08,"Salida a cine",entretenimiento,75206
+2026-04-08,"Cafe y postre",ocio,15304
+2026-04-08,"Bus ida y regreso",transporte,5627
+2026-04-09,"Domicilio comida",alimentacion,32796
+2026-04-09,"Suscripcion de Netflix",entretenimiento,26591
+2026-04-10,"Compra de frutas",alimentacion,20010
+2026-04-10,"Mercado de la semana",alimentacion,76113
+2026-04-11,"Almuerzo oficina",alimentacion,16603
+2026-04-11,"Compra no planeada",compras_no_esenciales,107426
+2026-04-11,"Plataforma de musica",entretenimiento,20219
+2026-04-11,"Videojuego digital",entretenimiento,45004
+2026-04-11,"Taxi por lluvia",transporte,18091
+2026-04-12,"Snack tarde",alimentacion,9193
+2026-04-12,"Suscripcion almacenamiento",entretenimiento,10323
+2026-04-12,"Suscripcion almacenamiento",entretenimiento,10039
+2026-04-12,"Recarga transporte",transporte,8848
+2026-04-13,"Compra de frutas",alimentacion,37196
+2026-04-13,"Compra no planeada",compras_no_esenciales,71728
+2026-04-13,"Curso virtual",educacion,112772
+2026-04-14,"Compra de frutas",alimentacion,35311
+2026-04-14,"Compra de libro",educacion,51507
+2026-04-14,"Bus ida y regreso",transporte,6836
+2026-04-15,"Snack tarde",alimentacion,11068
+2026-04-15,"Salida fin de semana",ocio,88430
+2026-04-15,"Gimnasio mensual",salud,73991
+2026-04-15,"Bus ida y regreso",transporte,6489
+2026-04-16,"Compra en supermercado",alimentacion,109242
+2026-04-17,"Cena en casa",alimentacion,22255
+2026-04-17,"Consulta medica",salud,139981
+2026-04-17,"Bus ida y regreso",transporte,7804
+2026-04-17,"Recarga transporte",transporte,10018
+2026-04-18,"Compra de cuaderno",educacion,20913
+2026-04-18,"Matricula curso corto",educacion,174807
+2026-04-18,"Medicamentos formulados",salud,48507
+2026-04-18,"Gasolina",transporte,69542
+2026-04-19,"Mercado de la semana",alimentacion,122521
+2026-04-19,"Cena en restaurante",ocio,77303
+2026-04-20,"Compra en supermercado",alimentacion,101907
+2026-04-20,"Compra de zapatos",compras_no_esenciales,125033
+2026-04-20,"Cafe y postre",ocio,18716
+2026-04-20,"Transporte app",transporte,17333
+2026-04-21,"Domicilio comida",alimentacion,26420
+2026-04-21,"Compra de libro",educacion,33856
+2026-04-21,"Taxi por lluvia",transporte,32305
+2026-04-22,"Mercado de la semana",alimentacion,82626
+2026-04-22,"Compra de audifonos",compras_no_esenciales,47539
+2026-04-22,"Suscripcion almacenamiento",entretenimiento,11126
+2026-04-23,"Cena en restaurante",ocio,94560
+2026-04-23,"Pasaje de bus",transporte,2615
+2026-04-24,"Material de estudio",educacion,18231
+2026-04-24,"Cine y snacks",entretenimiento,82824
+2026-04-24,"Control odontologico",salud,65150
+2026-04-25,"Compra en supermercado",alimentacion,137374
+2026-04-25,"Pasaje de bus",transporte,3371
+2026-04-26,"Snack tarde",alimentacion,5350
+2026-04-26,"Cine y snacks",entretenimiento,86167
+2026-04-26,"Bus ida y regreso",transporte,7911
+2026-04-26,"Pasaje de bus",transporte,2666
+2026-04-27,"Almuerzo oficina",alimentacion,12607
+2026-04-27,"Almuerzo oficina",alimentacion,20335
+2026-04-27,"Control odontologico",salud,81809
+2026-04-27,"Transporte app",transporte,26523
+2026-04-27,"Transporte app",transporte,12448
+2026-04-28,"Bus ida y regreso",transporte,7923
+2026-04-29,"Compra de frutas",alimentacion,37469
+2026-04-30,"Snack tarde",alimentacion,6055
+2026-04-30,"Pago plataforma educativa",educacion,40341
+2026-04-30,"Plan familiar",ocio,34073
+2026-04-30,"Salida con amigos",ocio,64399
+2026-05-01,"Domicilio comida",alimentacion,44484
+2026-05-01,"Pago de energia",servicios,184973
+2026-05-02,"Cafe y postre",ocio,10123
+2026-05-02,"Consulta medica",salud,137120
+2026-05-02,"Recarga transporte",transporte,9027
+2026-05-03,"Compra en supermercado",alimentacion,120816
+2026-05-03,"Cena en restaurante",ocio,63234
+2026-05-03,"Compra farmacia",salud,20692
+2026-05-03,"Pago de agua",servicios,43115
+2026-05-03,"Taxi por lluvia",transporte,16774
+2026-05-04,"Domicilio comida",alimentacion,36424
+2026-05-04,"Domicilio comida",alimentacion,34955
+2026-05-04,"Bus ida y regreso",transporte,5794
+2026-05-05,"Snack tarde",alimentacion,6751
+2026-05-05,"Pago de internet",servicios,89218
+2026-05-05,"Pasaje de bus",transporte,2980
+2026-05-06,"Almuerzo oficina",alimentacion,15006
+2026-05-06,"Snack tarde",alimentacion,5713
+2026-05-06,"Matricula curso corto",educacion,190075
+2026-05-06,"Taxi por lluvia",transporte,31160
+2026-05-07,"Compra en supermercado",alimentacion,149150
+2026-05-07,"Compra no planeada",compras_no_esenciales,93036
+2026-05-07,"Cena en restaurante",ocio,83771
+2026-05-07,"Pago de celular",servicios,59353
+2026-05-07,"Pasaje de bus",transporte,4351
+2026-05-08,"Compra de ropa",compras_no_esenciales,213640
+2026-05-08,"Matricula curso corto",educacion,172858
+2026-05-08,"Transporte app",transporte,30840
+2026-05-09,"Desayuno fuera",alimentacion,15201
+2026-05-09,"Compra de cuaderno",educacion,8393
+2026-05-09,"Suscripcion de Netflix",entretenimiento,29285
+2026-05-10,"Almuerzo oficina",alimentacion,20682
+2026-05-10,"Domicilio comida",alimentacion,32414
+2026-05-10,"Material de estudio",educacion,18288
+2026-05-10,"Evento cultural",entretenimiento,67765
+2026-05-10,"Gasolina",transporte,65235
+2026-05-10,"Pasaje de bus",transporte,4310
+2026-05-11,"Compra en supermercado",alimentacion,135487
+2026-05-11,"Plataforma de musica",entretenimiento,17511
+2026-05-11,"Consulta medica",salud,94545
+2026-05-12,"Mercado de la semana",alimentacion,117472
+2026-05-12,"Salida fin de semana",ocio,141674
+2026-05-12,"Consulta medica",salud,88586
+2026-05-12,"Transporte app",transporte,33790
+2026-05-13,"Domicilio comida",alimentacion,34003
+2026-05-13,"Curso virtual",educacion,110057
+2026-05-13,"Salida con amigos",ocio,91823
+2026-05-13,"Gasolina",transporte,74289
+2026-05-14,"Mercado de la semana",alimentacion,70497
+2026-05-14,"Evento cultural",entretenimiento,110464
+2026-05-14,"Pasaje de bus",transporte,2854
+2026-05-15,"Compra de zapatos",compras_no_esenciales,241930
+2026-05-15,"Matricula curso corto",educacion,187554
+2026-05-15,"Gimnasio mensual",salud,79187
+2026-05-15,"Pasaje de bus",transporte,3668
+2026-05-15,"Recarga transporte",transporte,19304
+2026-05-16,"Almuerzo oficina",alimentacion,15742
+2026-05-16,"Compra de frutas",alimentacion,22340
+2026-05-16,"Matricula curso corto",educacion,147635
+2026-05-16,"Helado y bebida",ocio,14864
+2026-05-16,"Helado y bebida",ocio,20383
+2026-05-16,"Pasaje de bus",transporte,4006
+2026-05-16,"Recarga transporte",transporte,11962
+2026-05-17,"Compra de frutas",alimentacion,32064
+2026-05-17,"Cafe y postre",ocio,12424
+2026-05-17,"Transporte app",transporte,25607
+2026-05-18,"Compra no planeada",compras_no_esenciales,67885
+2026-05-18,"Helado y bebida",ocio,23934
+2026-05-18,"Consulta medica",salud,126371
+2026-05-18,"Gasolina",transporte,87376
+2026-05-19,"Compra en supermercado",alimentacion,148722
+2026-05-19,"Suscripcion almacenamiento",entretenimiento,12992
+2026-05-19,"Cafe y postre",ocio,16754
+2026-05-19,"Taxi por lluvia",transporte,23242
+2026-05-19,"Transporte app",transporte,21483
+2026-05-20,"Cena en casa",alimentacion,26165
+2026-05-20,"Mercado de la semana",alimentacion,82741
+2026-05-20,"Salida con amigos",ocio,51747
+2026-05-20,"Gasolina",transporte,50277
+2026-05-21,"Pasaje de bus",transporte,3688
+2026-05-21,"Recarga transporte",transporte,15228
+2026-05-22,"Cena en casa",alimentacion,23860
+2026-05-22,"Compra de libro",educacion,21225
+2026-05-22,"Helado y bebida",ocio,13905
+2026-05-22,"Gasolina",transporte,86066
+2026-05-23,"Salida con amigos",ocio,73456
+2026-05-23,"Transporte app",transporte,15736
+2026-05-24,"Material de estudio",educacion,25861
+2026-05-24,"Cafe y postre",ocio,12957
+2026-05-24,"Recarga transporte",transporte,17790
+2026-05-25,"Almuerzo oficina",alimentacion,17546
+2026-05-25,"Compra en supermercado",alimentacion,153606
+2026-05-25,"Compra de cuaderno",educacion,11905
+2026-05-25,"Pago plataforma educativa",educacion,45811
+2026-05-25,"Suscripcion almacenamiento",entretenimiento,12727
+2026-05-25,"Recarga transporte",transporte,15854
+2026-05-26,"Cena en casa",alimentacion,28762
+2026-05-26,"Snack tarde",alimentacion,12237
+2026-05-27,"Cena en casa",alimentacion,40083
+2026-05-27,"Salida a cine",entretenimiento,58956
+2026-05-27,"Suscripcion almacenamiento",entretenimiento,10402
+2026-05-28,"Almuerzo oficina",alimentacion,18923
+2026-05-29,"Almuerzo oficina",alimentacion,12711
+2026-05-29,"Matricula curso corto",educacion,247673
+2026-05-29,"Cafe y postre",ocio,12252
+2026-05-29,"Pasaje de bus",transporte,3693
+2026-05-30,"Compra en supermercado",alimentacion,91427
+2026-05-30,"Compra farmacia",salud,34167
+2026-05-30,"Bus ida y regreso",transporte,7007
+2026-05-31,"Snack tarde",alimentacion,11848
+2026-05-31,"Bus ida y regreso",transporte,5528
+2026-05-31,"Gasolina",transporte,66397
+2026-05-31,"Transporte app",transporte,26573
